@@ -1,1 +1,3 @@
 # Cpp-Counting-Project
+This program counts the numbers of non-numeral characters (including escape characters), numbers, and words in a document and returns the top ten most used of each, plus the occurrences of each.
+The purpose of this program is to demonstrate the nature of choosing efficient data structures based on the details and necessities of a program. Here, I chose two hashtables (unordered maps) to store the key/value pairs of the word and numbers, where key is the character or number and the value is an integer pair with one being occurences and the other denoting the order it was in the table. I chose an ordered map, with a sorting functor passed in, to contain the character map, where key is the character and value is the occurences.
